@@ -24,7 +24,7 @@ func setupLogOutput() {
 
 func main() {
 	setupLogOutput()
-
+	///fsdfsdf
 	server := gin.New()
 
 	server.Static("/css", "./templates/css")
